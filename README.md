@@ -1,13 +1,13 @@
-# 📡 Projet BIP BIP ECE
+#  Projet BIP BIP ECE
 
-## 🎯 Objectifs du projet
+##  Objectifs du projet
 - Concevoir, assembler et tester un **bipeur** capable de recevoir et d’envoyer des messages textuels.  
 - Appliquer les acquis en **Électronique Numérique** et en **méthodologie de projet (cycle en V)**.  
 - Travailler en équipe de 3 et présenter les résultats lors des soutenances.  
 
 ---
 
-## 🧱 Architecture fonctionnelle
+##  Architecture fonctionnelle
 Fonction principale : échanger des messages textuels de façon autonome.  
 
 Fonctions secondaires :
@@ -19,7 +19,7 @@ Fonctions secondaires :
 
 ---
 
-## ✅ Exigences fonctionnelles
+##  Exigences fonctionnelles
 - EF1 : Message ≥ 100 caractères  
 - EF2 : Tous les caractères de la langue française utilisables  
 - EF3 : Priorité associée au message  
@@ -38,7 +38,7 @@ Fonctions secondaires :
 
 ---
 
-## 🔌 Connexions matérielles
+##  Connexions matérielles
 | **Périphérique**     | **Signal**              | **Pin Arduino** |
 |----------------------|-------------------------|------------------|
 | Encodeur SW2         | A (pull-up)             | D3               |
@@ -59,9 +59,9 @@ Fonctions secondaires :
 
 ---
 
-## 🧪 Protocoles de test
+##  Protocoles de test
 
-### 🔊 Buzzer
+###  Buzzer
 - **But** : vérifier que le buzzer émet un son.  
 - **Protocole** :  
   1. Configurer la pin D10 en sortie.  
@@ -71,7 +71,7 @@ Fonctions secondaires :
 
 ---
 
-### 🖥️ Écran OLED
+###  Écran OLED
 - **But** : vérifier l’affichage de texte.  
 - **Protocole** :  
   1. Initialiser la librairie Adafruit SSD1306.  
@@ -81,7 +81,7 @@ Fonctions secondaires :
 
 ---
 
-### 🌈 LED RGB
+###  LED RGB
 - **But** : vérifier l’allumage séquentiel des trois couleurs.  
 - **Protocole** :  
   1. Configurer les pins D5, D6, D9 en sortie.  
@@ -91,7 +91,7 @@ Fonctions secondaires :
 
 ---
 
-### 📡 nRF24
+###  nRF24
 - **But** : vérifier l’envoi d’un message radio.  
 - **Protocole** :  
   1. Initialiser le module RF24 avec CE=D7 et CSN=D8.  
@@ -101,7 +101,7 @@ Fonctions secondaires :
 
 ---
 
-### 🔄 Encodeur rotatif
+###  Encodeur rotatif
 - **But** : vérifier la détection de rotation gauche/droite.  
 - **Protocole** :  
   1. Configurer les pins D3 et D4 en entrée pull-up.  
@@ -111,7 +111,7 @@ Fonctions secondaires :
 
 ---
 
-### 🔘 Bouton utilisateur
+###  Bouton utilisateur
 - **But** : vérifier la détection d’un appui.  
 - **Protocole** :  
   1. Configurer la pin D2 en entrée pull-up.  
@@ -121,7 +121,7 @@ Fonctions secondaires :
 
 ---
 
-## 🧑‍🏫 Soutenances
+##  Soutenances
 
 ### Soutenance 1 (5 pts)
 - Présentation orale (10 min) : schémas, algos, protocoles, preuves.  
@@ -134,7 +134,7 @@ Fonctions secondaires :
 
 ---
 
-## 📚 Ressources documentaires
+##  Ressources documentaires
 - TP d’Électronique Numérique  
 - Toolbox ECE  
 - Bibliothèque Proteus Arduino Nano  
@@ -144,15 +144,11 @@ Fonctions secondaires :
 
 ---
 
-## 👥 Équipe projet
-- **Mathieu** – Organisation du projet, répartition des tâches
-- **Tristan** – Soudure
-- **Jules** – Conception matérielle, tests unitaires 
+##  Équipe projet
+- **Mathieu** – Méthodologie du projet, Codes Arduino
+- **Tristan** – Soudure, Proteus
+- **Jules** – Soudure, Proteus
 
 ---
 
-## 🚀 Prochaines étapes
-- Finaliser les tests unitaires  
-- Implémenter le protocole de communication  
-- Intégrer les modules dans un système complet  
-- Préparer la soutenance finale avec démonstration  
+
